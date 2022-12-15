@@ -4669,6 +4669,7 @@ GameObject:
   - component: {fileID: 922443467}
   - component: {fileID: 922443466}
   - component: {fileID: 922443465}
+  - component: {fileID: 922443469}
   m_Layer: 6
   m_Name: Asteroid (4)
   m_TagString: Obstacle
@@ -4769,6 +4770,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922443463}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &922443469
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922443463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.0000001
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.00000011920929, z: 0.0000076293945}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5934,6 +5949,7 @@ GameObject:
   - component: {fileID: 1089902756}
   - component: {fileID: 1089902755}
   - component: {fileID: 1089902759}
+  - component: {fileID: 1089902760}
   m_Layer: 6
   m_Name: Asteroid (7)
   m_TagString: Obstacle
@@ -6035,6 +6051,20 @@ MeshFilter:
   m_GameObject: {fileID: 1089902753}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!136 &1089902759
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089902753}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.0000001
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.00000011920929, z: 0.0000076293945}
+--- !u!136 &1089902760
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7090,6 +7120,7 @@ GameObject:
   - component: {fileID: 1301150233}
   - component: {fileID: 1301150232}
   - component: {fileID: 1301150231}
+  - component: {fileID: 1301150235}
   m_Layer: 6
   m_Name: Asteroid (5)
   m_TagString: Obstacle
@@ -7190,6 +7221,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301150229}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1301150235
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301150229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.0000001
+  m_Direction: 1
+  m_Center: {x: 0.00000011920929, y: -0.00000011920929, z: 0.0000076293945}
 --- !u!1 &1305764518
 GameObject:
   m_ObjectHideFlags: 0
@@ -10419,6 +10464,7 @@ GameObject:
   - component: {fileID: 2042363234}
   - component: {fileID: 2042363233}
   - component: {fileID: 2042363232}
+  - component: {fileID: 2042363236}
   m_Layer: 6
   m_Name: Asteroid (6)
   m_TagString: Obstacle
@@ -10519,6 +10565,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042363230}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &2042363236
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042363230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.0000001
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.00000011920929, z: 0.0000076293945}
 --- !u!1 &2044312976
 GameObject:
   m_ObjectHideFlags: 0
@@ -11031,6 +11091,7 @@ GameObject:
   - component: {fileID: 2144718917}
   - component: {fileID: 2144718916}
   - component: {fileID: 2144718915}
+  - component: {fileID: 2144718919}
   m_Layer: 6
   m_Name: Asteroid (3)
   m_TagString: Obstacle
@@ -11131,6 +11192,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144718913}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &2144718919
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144718913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.0000001
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.00000011920929, z: 0.0000076293945}
 --- !u!1 &12839491504110277
 GameObject:
   m_ObjectHideFlags: 0
@@ -11786,6 +11861,7 @@ GameObject:
   - component: {fileID: 4439283794913999711}
   - component: {fileID: 3500528462788047889}
   - component: {fileID: 703988981105117866}
+  - component: {fileID: 5416467729759173053}
   m_Layer: 6
   m_Name: Asteroid (2)
   m_TagString: Obstacle
@@ -13383,6 +13459,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662339922660460994}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &5416467729759173053
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662339922660460994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.0000001
+  m_Direction: 1
+  m_Center: {x: -0.00000023841858, y: -0.00000011920929, z: 0.0000076293945}
 --- !u!1001 &5435277102649918838
 PrefabInstance:
   m_ObjectHideFlags: 0
